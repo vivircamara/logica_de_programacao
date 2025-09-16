@@ -11,8 +11,9 @@ void mostra_matriz(){
 
     for(l = 0; l < tam; l++){
         for(c = 0; c < tam; c++){
-            printf("%d ", matriz[l][c]);
+            printf("%02.d ", matriz[l][c]);
         }
+        printf("\n");
     }
 
 }
